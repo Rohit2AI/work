@@ -1,1 +1,33 @@
-
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+    a.button {
+      display: block;
+      background: #1f1f1f;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #444;
+      transition:0.3s ease;
+    }
+    a.button:hover {
+      background: #333;
+    }
