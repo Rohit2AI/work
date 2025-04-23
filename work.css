@@ -15,7 +15,7 @@ body {
         }
         .btn {
             display: inline-block;
-            padding: 15px 35px;
+            padding: px 25px;
             font-size: 1.2rem;
             color: white;
             background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
