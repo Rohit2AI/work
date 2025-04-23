@@ -9,13 +9,19 @@ body {
       max-width: 500px;
       margin: auto;
     }
-.cta {
-            margin: 20px;
+/* Button */
+    .cta {
+            
             animation: fadeIn 2s ease-in-out;
+            display: flex;
+  gap: 20px; 
+  justify-content: center;
+  margin-top: 10px;
+            
         }
         .btn {
             display: inline-block;
-            padding: px 30px;
+            padding: 15px 35px;
             font-size: 1.2rem;
             color: white;
             background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
@@ -45,6 +51,7 @@ body {
             transform: scale(1.1);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
         }
+        /* Button */
 
     h1 {
       font-size: 2em;
@@ -68,4 +75,3 @@ body {
     a.button:hover {
       background: #333;
     }
-
